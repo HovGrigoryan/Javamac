@@ -79,7 +79,7 @@ public class BlogStorage {
 
     private int getPostIndex(Post post) throws ModelNotFoundException {
         for (int i = 0; i < postSize; i++) {
-            if (users[i].equals(post)) {
+            if (posts[i].equals(post)) {
                 return i;
             }
         }
